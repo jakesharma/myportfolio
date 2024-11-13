@@ -1,0 +1,47 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#home {
+    position: relative;
+    top: -5rem;
+}
+
+#gallery img {
+    padding: 10%;
+}
+
+.navbar .collapse ul li {
+    margin-right: 2rem;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#introduction {
+    font-family: 'Courier New', monospace;
+    line-height: 3rem;
+    font-weight: bold;
+    margin-top: -4rem;
+}
+
+/* For Mutli Device */
+@media screen and (max-width: 1199px) {
+    #home {
+        position: relative;
+        top: 0rem;
+    }
+
+    #introduction {
+        line-height: 2rem;
+        margin-top: 0rem;
+    }
+}
